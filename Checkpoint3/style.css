@@ -1,0 +1,68 @@
+.liste {
+  display: inline;
+  margin: 5px;
+  color: beige;
+  letter-spacing: 7px;
+  word-spacing: 30px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+.liste a:link {
+  text-shadow: blanchedalmond;
+  color: beige;
+}
+a:hover {
+  font-size: x-large;
+  font-style: italic;
+}
+
+.header {
+  display: inline-block;
+  padding: 10px;
+}
+header {
+  background-color: rgb(8, 3, 29);
+  opacity: 0.85;
+  height: 150px;
+  width: 100%;
+  display: inline-flex;
+}
+body {
+  background-color: beige;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.about {
+  display: inline-block;
+  padding: 30px;
+  width: 300px;
+}
+.work_sec {
+  display: inline-block;
+  padding: 30px;
+  width: 300px;
+}
+h2 {
+  text-align: center;
+  background-color: rgb(8, 3, 29);
+  opacity: 0.9;
+  color: beige;
+  text-shadow: beige;
+  font-size: larger;
+  height: 30px;
+  width: 900px;
+}
+.contact_sec {
+  display: inline-block;
+  padding: 30px;
+  width: 300px;
+}
+
+#button:hover {
+  font-size: large;
+  background-color: rgb(8, 3, 29);
+  color: beige;
+}
